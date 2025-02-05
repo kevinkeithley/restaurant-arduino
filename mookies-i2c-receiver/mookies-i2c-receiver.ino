@@ -13,7 +13,7 @@ const int busyLedPin = 2;   // LED for "busy" state
 const int callLedPin = 3;  // LED for "call" state
 
 // Variables for time
-int timeIncrement = 15; 
+int timeIncrement = -1; 
 const int minTime = 10;
 const int maxTime = 55;
 
